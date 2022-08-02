@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoragePredictionActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:ignore="MissingDefaultResource"
+    app:layout_constraintDimensionRatio="h,16:9"
+    android:background="@drawable/images6">
+
+
+    <TextView
+        android:id="@+id/affiche"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:text="////////////////////null"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/affiche2"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:text="////////////////////null"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/take_im"
+        android:layout_width="131dp"
+        android:layout_height="50dp"
+        android:text="Take image"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/select_image"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Select Image"
+        android:textAllCaps="false" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/image_v"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="58dp"
+        android:layout_height="35dp"
+        android:text="OK"
+        android:textSize="14dp" />
+
+
+</LinearLayout>
